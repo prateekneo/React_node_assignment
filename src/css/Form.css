@@ -1,0 +1,87 @@
+.container{
+    margin-top : 30px;
+}
+
+.form_container{
+    text-align: center;
+    #border : 1px solid black;
+    max-width : max-content;
+    
+}
+
+.form {
+    margin : 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.todo_list{
+    margin : 20px 20px 20px 20px;
+    
+}
+
+#filter_value{
+    color:black;
+}
+
+
+
+.todo_list_container{
+    border : 1px solid white;
+    color : black ;
+    margin-bottom : 20px;
+    max-width: max-content;
+    background-color : #FC766AFF;
+}
+
+table, th, td {
+    border : 1 px solid black;
+}
+
+.create{
+    text-align: center;
+    margin : 20px 20px 20px 20px;
+}
+
+.tick, .delete{
+    color : #3b5998 ;
+}
+
+.page {
+    border : 2px solid #3b5998;
+    background-color: #5B84B1FF;
+    width : 700px;
+    text-align : center;
+}
+
+.error_name, .error_date {
+
+    background-color: red;
+    color:white;
+    display: none;
+}
+
+.submit_btn{
+    margin-left: 10px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display : 'none';
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
